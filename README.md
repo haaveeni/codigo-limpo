@@ -35,15 +35,17 @@ Escoteiros da América
 <li>Uma maneira de fazer algo</li>
 
 ## Nomes significativos
-O nome deve demonstrar seu propósito: por que ele existe? o que faz? como é usado?
-Escolher bom nome leva tempo <br/>
-Se achar necessário, troque os nomes <br/>
-Mesmo um código simples, sem expressões complexas, sem classe refinada ou método polimórfico, com espaçamento e indentação ideais, será difícil de compreender se os nomes não forem significativos <br/>
-Evite usar nomes parecidos, pois vai gerar confusão <br/>
-Não use números sequenciais, eles não oferecem informação relevante
-Use nomes pronunciáveis. Um nome impronunciável vai te atrapalhar na hora de discutir sobre o elemento
-Use nomes buscáveis
-Não use apenas uma letra pra nomear, isso gera um desgaste mental para quem lê e tem que traduzir, a menos que seja dentro de um método pequeno.
+<ul>
+  <li>Mesmo um código simples, sem expressões complexas, sem classe refinada ou método polimórfico, com espaçamento e indentação ideais, será difícil de compreender se os nomes não forem significativos</li>
+  <li>O nome deve demonstrar seu propósito: por que ele existe? o que faz? como é usado?</li>
+  <li>Use nomes buscáveis</li>
+  <li>Escolher bom nome leva tempo</li>
+  <li>Se achar necessário, troque os nomes</li>
+  <li>Evite usar nomes parecidos, pois vai gerar confusão</li>
+  <li>Não use números sequenciais, eles não oferecem informação relevante</li>
+  <li>Use nomes pronunciáveis. Um nome impronunciável vai te atrapalhar na hora de discutir sobre o elemento</li>
+  <li>Não use apenas uma letra pra nomear, isso gera um desgaste mental para quem lê e tem que traduzir, a menos que seja dentro de um método pequeno.</li>
+</ul>
 
 ### Nomes de classes
 Use substantivos, como Customer, Account, AddressParser
@@ -52,7 +54,7 @@ Use substantivos, como Customer, Account, AddressParser
 Use verbos, como Post Payment, DeletePage, Save
 Métodos de acesso precisam de prefixos como get, set, is
 
-Sobre variáveis nomeadas com apenas uma letra, o ideal é que isso só seja feito dentro de métodos pequenos.
+Só nomeie variáveis com apenas uma letra dentro de métodos pequenos.
 
 ## Refatoração 🛠️🪛
   <h4>80% ou mais do que fazemos é manutenção, então deveríamos pensar mais como alguém
